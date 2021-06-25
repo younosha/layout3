@@ -1,0 +1,314 @@
+.main {
+  width: 100%;
+  background-image: url(./img/bg.svg);
+  height: 770px;
+  background-size: cover;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 100%;
+}
+.logo {
+  margin-top: 40px;
+}
+.mainTextBlock {
+  display: flex;
+  flex-direction: column;
+}
+.mainText1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 5.70937px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.mainText2 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: -40px;
+}
+.scroll {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.navWrapper {
+  width: 100%;
+}
+.navContent {
+  margin: auto;
+  max-width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+.link {
+  margin-left: 20px;
+  color: #48555b;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.line {
+  width: 100%;
+  background-color: #e6e6e6;
+  height: 1px;
+  margin-top: 15px;
+}
+.ourStory {
+  width: 100%;
+}
+.ourStoryContent {
+  max-width: 950px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #48555b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+.titleStory {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  color: #48555b;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.ourStoryBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  max-width: 950px;
+  margin: auto;
+}
+.ourStoryPicture1 {
+  background-image: url(./img/Bitmap.svg);
+  width: 130px;
+  height: 200px;
+  margin-left: 10px;
+}
+.ourStoryPicture2 {
+  background-image: url(./img/Bitmap2.svg);
+  width: 130px;
+  height: 200px;
+  margin-left: 10px;
+}
+.ourStoryPicture3 {
+  background-image: url(./img/Bitmap3.svg);
+  width: 130px;
+  height: 200px;
+  margin-left: 10px;
+}
+.pictures {
+  display: flex;
+}
+.picturesTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+.headerTitle {
+  color: #48555b;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.headerTitle2 {
+  color: #48555b;
+  letter-spacing: 0.1875px;
+  font-size: 13px;
+  line-height: 23px;
+  font-family: sans-serif;
+}
+.capabilitiesWrapper {
+  max-width: 950px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.capTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #48555b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+.capText {
+  width: 33%;
+  color: #48555b;
+  font-size: 13px;
+  line-height: 23px;
+  font-family: sans-serif;
+}
+.capButton {
+  display: flex;
+  justify-content: end;
+}
+.btn {
+  background: #00a4e5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.projectsBlock {
+  max-width: 950px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.projectCard {
+  border: 1px solid #e6e6e6;
+  width: 30%;
+  padding: 20px;
+  margin-left: 10px;
+}
+.projectCard1 {
+  border: 1px solid #e6e6e6;
+  width: 30%;
+  padding: 20px;
+}
+.bgGrad {
+  background-image: url(./img/bgGrad.svg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+}
+.bgGradContent {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+.bgGradText {
+  color: #48555b;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.searchBlock {
+  width: 100%;
+  background-color: #171819;
+}
+.searchBlockContent {
+  margin: auto;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.searchText {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.input {
+  padding: 10px;
+  border: none;
+}
+.titleCard {
+  color: #48555b;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: sans-serif;
+}
+.titleCard2 {
+  letter-spacing: 0.1875px;
+  color: #48555b;
+  font-size: 13px;
+  line-height: 23px;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .navContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ourStoryBlock {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .capabilitiesWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .projectsBlock {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .searchBlockContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ourStoryBlock {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .projectsBlock {
+    flex-direction: column;
+  }
+  .projectCard {
+    margin-left: 0px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  .projectCard1 {
+    width: 300px;
+  }
+}
